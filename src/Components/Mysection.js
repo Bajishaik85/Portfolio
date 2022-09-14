@@ -18,11 +18,11 @@ function Mysection() {
                                 <p className='fs-4 lead text-start text-sm-start text-md-start text-lg-start text-xl-start text-xxl- overflow-auto'>Iam a Web Developer specialized in Front End Development Experienced with all satges of the development cycle for dynamic web pages.Well versed in numerous trending technologies including HTML,Css,Bootstrap,Javascript,Python and had a strong background in project management and customer relations.</p>
                                 <h3 className='text-primary'>Here Are Few Highlights</h3>
                                 <div class="list-group">
-                                    <a class="list-group-item list-group-item-action">Visual Thinking</a>
-                                    <a class="list-group-item list-group-item-action">Problem Solving</a>
-                                    <a  class="list-group-item list-group-item-action">Organization Skills</a>
-                                    <a  class="list-group-item list-group-item-action ">Communication Skills</a>
-                                    <a class="list-group-item list-group-item-action ">Enthusiastic Debugging</a>
+                                    <a href={() => false} class="list-group-item list-group-item-action">Visual Thinking</a>
+                                    <a href={() => false} class="list-group-item list-group-item-action">Problem Solving</a>
+                                    <a href={() => false} class="list-group-item list-group-item-action">Organization Skills</a>
+                                    <a href={() => false} class="list-group-item list-group-item-action ">Communication Skills</a>
+                                    <a href={() => false} class="list-group-item list-group-item-action ">Enthusiastic Debugging</a>
 
                                 </div>
 
