@@ -22,7 +22,7 @@ function Mysection() {
                                     <a href={() => false} class="list-group-item list-group-item-action">Problem Solving</a>
                                     <a href={() => false} class="list-group-item list-group-item-action">Organization Skills</a>
                                     <a href={() => false} class="list-group-item list-group-item-action ">Communication Skills</a>
-                                    <a href={() => false} class="list-group-item list-group-item-action ">Enthusiastic Debugging</a>
+                                    <a href={() => false} class="list-group-item list-group-item-action mb-1">Enthusiastic Debugging</a>
 
                                 </div>
 
