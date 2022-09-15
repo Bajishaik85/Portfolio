@@ -1,71 +1,82 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Timelinecomp from './Timelinecomp';
-import Timelinecomptwo from './Timelinecomptwo';
-
-function TabPanel(props) {
-  const { children, value, index, ...other } = props;
-
+import React from 'react'
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import LaptopMacIcon from '@mui/icons-material/LaptopMac';
+import SchoolRounded from '@mui/icons-material/SchoolRounded';
+import BackpackSharpIcon from '@mui/icons-material/BackpackSharp';
+import BeenhereIcon from '@mui/icons-material/Beenhere';
+import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+function Education() {
   return (
-      
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
-      {...other}
-    >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
+    <>
+      <h1 className='m-2 lead text-primary fs-4 fw-bold text-center'>My Education And Experience</h1>
+
+
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2016 - 2017"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<BackpackSharpIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">SSC</h3>
+          <p>Completed My Secondary Educaton From Ap Model School,Dachepalli</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2017 - 2019"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<LaptopMacIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Preuniversity Course</h3>
+          <p>
+            Completed My 2 years Of Preuniversity Course from Rgukt IIIT Ongole       </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2019 - 2023"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<SchoolRounded />}
+        >
+          <h3 className="vertical-timeline-element-title">B.Tech</h3>
+          <p>
+            Graduation under the stream of Electronics And Communication Engineering From Rgukt IIIT Ongole
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2020"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<BeenhereIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">MeeBuddy Volunteer</h3>
+          <p>
+            Worked as a Volunteer in MeeBuddy Pvt Ltd for Training Franchise Manager by explaining the importance of MeeBuddy Dashboard
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2021"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<DeveloperModeIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <p>
+            Completed Web Development Internship From Awetecks Pvt Ltd
+          </p>
+        </VerticalTimelineElement>
+
+      </VerticalTimeline>
+
+
+
+
+
+
+
+
+    </>
+  )
 }
 
-TabPanel.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.number.isRequired,
-  value: PropTypes.number.isRequired,
-};
-
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
-  };
-}
-
-export default function BasicTabs() {
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
-  return (
-    
-
-
-    <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
-          <Tab label="Education" {...a11yProps(0)} />
-          <Tab label="Experience" {...a11yProps(1)} />
-        </Tabs>
-      </Box>
-      <TabPanel value={value} index={0}>
-        <Timelinecomp/>
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        <Timelinecomptwo/>
-      </TabPanel>
-      
-    </Box>
-  );
-}
+export default Education

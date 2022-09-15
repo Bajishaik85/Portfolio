@@ -15,7 +15,7 @@ function Mysection() {
 
                             </div>
                             <div className="col-12 col-sm-12 colmd-12 col-lg-6 col-xl-6 col-xxl-6">
-                                <p className='fs-4 lead text-start text-sm-start text-md-start text-lg-start text-xl-start text-xxl- overflow-auto'>Iam a Web Developer specialized in Front End Development Experienced with all satges of the development cycle for dynamic web pages.Well versed in numerous trending technologies including HTML,Css,Bootstrap,Javascript,Python and had a strong background in project management and customer relations.</p>
+                                <p className='fs-4 lead text-start text-sm-start text-md-start text-lg-start text-xl-start text-xxl- overflow-auto'>Iam a Web Developer specialized in Front End Development Experienced with all satges of the development cycle for dynamic web pages.Well versed in numerous trending technologies including HTML,Css,Bootstrap,Javascript and Python.I had a strong background in project management and customer relations.</p>
                                 <h3 className='text-primary'>Here Are Few Highlights</h3>
                                 <div class="list-group">
                                     <a href={() => false} class="list-group-item list-group-item-action">Visual Thinking</a>
