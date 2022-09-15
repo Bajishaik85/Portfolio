@@ -3,6 +3,7 @@ Technologies Used : React JS , CSS, HTML.
 
 I have worked on My Personal Portfolio Project in React JS. 
 Features Of The Project:
+
 *--I have used React -Bootstrap,Material Ui for the development,
 *-- For the Text animation used react-typography
 *-- And then used react-timeline for creating timeline section
