@@ -43,7 +43,7 @@ function Banner() {
                             <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/alwaysbajishaik"><FacebookIcon /></a>
                             <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/always_bajishaik"><InstagramIcon /></a>
                             <a className="text-primary link-success m-2" href="mailTo:bajishaikbsk@gmail.com"><MarkEmailReadIcon /></a>
-                            <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/always_bajishaik"><TwitterIcon /></a>
+                            <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/alwaysbajishaik"><TwitterIcon /></a>
                         </div>
                         <div className="d-grid gap-2 d-md-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start justify-content-xl-start justify-content-xxl-start  mb-4 mb-lg-3">
                             <a href="https://drive.google.com/file/d/1iqhTLFJPcVp6hrc9uO2_HCEJnXGtX8oy/view?usp=sharing" rel="noopener noreferrer" download="Baji's Resume" target='_blank'>
