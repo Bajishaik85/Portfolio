@@ -1,4 +1,4 @@
-ProjectName : My Portfolio;
+ProjectName : My Portfolio
 Technologies Used : React JS , CSS, HTML.
 
 I have worked on My Personal Portfolio Project in React JS. 
