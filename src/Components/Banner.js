@@ -41,7 +41,7 @@ function Banner() {
                         <div className='d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start justify-content-xl-start justify-content-xxl-start'>
                             <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bajishaik85"><LinkedInIcon /></a>
                             <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/alwaysbajishaik"><FacebookIcon /></a>
-                            <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/always_bajishaik"><InstagramIcon /></a>
+                            <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/always_baji_shaik"><InstagramIcon /></a>
                             <a className="text-primary link-success m-2" href="mailTo:bajishaikbsk@gmail.com"><MarkEmailReadIcon /></a>
                             <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/alwaysbajishaik"><TwitterIcon /></a>
                         </div>
