@@ -15,7 +15,7 @@ function Footer() {
                     <ul className="justify-content-center mx-auto list-unstyled d-flex">
                         <li className="ms-3"><a className="text-white link-warning"  target="__blank" href="https://www.linkedin.com/in/bajishaik85"><LinkedInIcon/></a></li>
                         <li className="ms-3"><a className="text-white link-warning" target="__blank" href="https://www.facebook.com/alwaysbajishaik"><FacebookIcon/></a></li>
-                        <li className="ms-3"><a className="text-white link-warning" target="__blank" href="https://www.instagram.com/always_bajishaik"><Instagram /></a></li>
+                        <li className="ms-3"><a className="text-white link-warning" target="__blank" href="https://www.instagram.com/always_baji_shaik"><Instagram /></a></li>
                         <li className="ms-3"><a className="text-white link-warning"  href="mailTo:bajishaikbsk@gmail.com"><MarkEmailRead /></a></li>
                         <li className="ms-3"><a className="text-white link-warning" target="__blank" href="https://www.twitter.com/alwaysbajishaik"><TwitterIcon /></a></li>
                     </ul>
