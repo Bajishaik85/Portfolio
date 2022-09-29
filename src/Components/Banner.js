@@ -46,7 +46,7 @@ function Banner() {
                             <a className="text-primary link-success m-2" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/alwaysbajishaik"><TwitterIcon /></a>
                         </div>
                         <div className="d-grid gap-2 d-md-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start justify-content-xl-start justify-content-xxl-start  mb-4 mb-lg-3">
-                            <a href="https://drive.google.com/file/d/1sdU1Nvq8_HtilylZfXQ_H3Mder81squZ/view?usp=sharing" rel="noopener noreferrer" download="Baji's Resume" target='_blank'>
+                            <a href="https://drive.google.com/file/d/1RzLpu5MYc7ngUb7hFRWSralWwfa65O4K/view?usp=sharing" rel="noopener noreferrer" download="Baji's Resume" target='_blank'>
                                 <button type="button" className="btn btn-outline-secondary btn-lg px-4">Download Resume</button></a>
                             <Link to="/contact" type="button" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Hire Me</Link>
                         </div>
